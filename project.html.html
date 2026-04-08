@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NepKart Overview</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f8f8f8;
+      margin: 0;
+    }
+
+    .overview-container {
+      padding: 20px;
+    }
+
+    /* Welcome */
+    .welcome {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    .login-btn {
+      margin-top: 10px;
+      padding: 8px 15px;
+      border: none;
+      background: #ff7a59;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    /* Stats */
+    .stats {
+      display: flex;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 15px;
+      flex: 1;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    /* Guest info */
+    .guest-info {
+      display: flex;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    /* Banner */
+    .sale-banner {
+      background: #ffe9e3;
+      padding: 15px;
+      margin-top: 20px;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    .sale-banner button {
+      margin-top: 10px;
+      padding: 6px 12px;
+      border: none;
+      background: #ff7a59;
+      color: white;
+      border-radius: 5px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="overview-container">
+
+    <!-- Welcome -->
+    <div class="welcome">
+      <h2>Welcome to NepKart 👋</h2>
+      <p>Please log in to view your orders, coins, and activity.</p>
+      <button class="login-btn">Login / Register</button>
+    </div>
+
+    <!-- Stats (NOW NORMAL, NOT BLURRED) -->
+    <div class="stats">
+      <div class="card">
+        <h4>Total orders</h4>
+        <h2>0</h2>
+        <p>No orders yet</p>
+      </div>
+
+      <div class="card">
+        <h4>Total spent</h4>
+        <h2>Rs. 0</h2>
+        <p>Start shopping</p>
+      </div>
+
+      <div class="card">
+        <h4>NepKart coins</h4>
+        <h2>0</h2>
+        <p>Earn rewards</p>
+      </div>
+
+      <div class="card">
+        <h4>Active returns</h4>
+        <h2>0</h2>
+        <p>No returns</p>
+      </div>
+    </div>
+
+    <!-- Guest Info -->
+    <div class="guest-info">
+      <div class="card">
+        <h4>Track your orders</h4>
+        <p>Log in to check delivery status.</p>
+      </div>
+
+      <div class="card">
+        <h4>Earn NepKart coins</h4>
+        <p>Get rewards and discounts.</p>
+      </div>
+
+      <div class="card">
+        <h4>Exclusive offers</h4>
+        <p>Festival deals and sales.</p>
+      </div>
+    </div>
+
+    <!-- Banner -->
+    <div class="sale-banner">
+      <p><strong>Dashain Mega Sale — up to 50% off</strong></p>
+      <button>Shop Now</button>
+    </div>
+
+  </div>
+
+</body>
+</html>
